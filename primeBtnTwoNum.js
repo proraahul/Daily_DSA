@@ -1,6 +1,6 @@
 let lower_num = 5;
 let higher_num = 20;
-// let primeList = [];
+let primeList = [];
 
 for(let i = lower_num; i<=higher_num; i++){
         let flag = 0;    
@@ -11,7 +11,8 @@ for(let i = lower_num; i<=higher_num; i++){
             break;
         }
         else{
-            // primeList.push(i);
+            // pushing prime numbers in arr
+            primeList.push(i);
             break;
         }
     }
@@ -22,4 +23,5 @@ for(let i = lower_num; i<=higher_num; i++){
 
 }
 
-// console.log(primeList);
+// print arr of prime numbers
+console.log(primeList);
