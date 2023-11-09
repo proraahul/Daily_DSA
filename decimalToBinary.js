@@ -2,7 +2,7 @@
 
 var prompt = require('prompt-sync')();
 
-function convertToBinary(x) {
+function decimalToBinary(x) {
     let bin = 0;
     let rem, i = 1, step = 1;
     while (x != 0) {
@@ -20,4 +20,4 @@ function convertToBinary(x) {
 // take input
 let number = prompt('Enter a decimal number: ');
 
-convertToBinary(number);
+decimalToBinary(number);
