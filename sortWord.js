@@ -5,10 +5,11 @@ const string = prompt('Enter a sentence: ');
 
 // converting to an array
 const words = string.split(' ');
+// console.log(words);
 
 // sort the array elements
 words.sort();
-
+// console.log(words);
 // display the sorted words
 console.log('The sorted words are:');
 
